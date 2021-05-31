@@ -1,5 +1,11 @@
 # CSAPP-Lab
+
 The lab of Computer Systems: A Programmer's Perspective
+
+Setup lab environment:
+
+- `docker build -t zwang/csapp .`
+- `./start.sh` to start lab docker env.
 
 The original lab files are downloaded from the [official site](http://csapp.cs.cmu.edu).
 
@@ -11,4 +17,4 @@ The original lab files are downloaded from the [official site](http://csapp.cs.c
 6. Cache Lab
 7. Arch Lab
 8. Malloc Lab
-9. [Proxy Lab](./9 Proxy Lab)
+9. Proxy Lab
