@@ -7,4 +7,4 @@ else
     echo "no old container exist. Create a new one"
 fi
 
-docker container run -it -v ${path}:/csapp --name=csapp_env ${image} /bin/bash
+docker container run -it -v ${path}:/csapp -p 8080:8080 --name=csapp_env --net host  zwang/csapp /bin/bash
