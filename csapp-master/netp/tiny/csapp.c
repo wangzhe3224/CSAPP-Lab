@@ -449,12 +449,12 @@ void *Realloc(void *ptr, size_t size)
     return p;
 }
 
-void *Calloc(size_t nmemb, size_t size) 
+void *Calloc(size_t nmemb, size_t size)
 {
     void *p;
 
     if ((p = calloc(nmemb, size)) == NULL)
-	unix_error("Calloc error");
+        unix_error("Calloc error");
     return p;
 }
 
