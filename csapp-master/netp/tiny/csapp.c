@@ -440,12 +440,12 @@ void *Malloc(size_t size)
     return p;
 }
 
-void *Realloc(void *ptr, size_t size) 
+void *Realloc(void *ptr, size_t size)
 {
     void *p;
 
-    if ((p  = realloc(ptr, size)) == NULL)
-	unix_error("Realloc error");
+    if ((p = realloc(ptr, size)) == NULL)
+        unix_error("Realloc error");
     return p;
 }
 

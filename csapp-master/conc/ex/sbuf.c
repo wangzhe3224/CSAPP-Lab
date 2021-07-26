@@ -1,12 +1,6 @@
 #include "csapp.h"
 #include "sbuf.h"
 
-/**
- * @brief Create an empty, bounded, shared FIFO buffer with n slots
- * 
- * @param sp 
- * @param n 
- */
 void sbuf_init(sbuf_t *sp, int n)
 {
     // Heap allocation dynamic
